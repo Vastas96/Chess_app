@@ -31,7 +31,8 @@ import android.widget.Toast;
 import static android.content.ContentValues.TAG;
 
 public class SocketService extends Service {
-    public static final String MY_IP = "192.168.0.37"; //my lan IP address
+//    public static final String MY_IP = "192.168.0.37"; //my lan IP address
+    public static final String MY_IP = "192.168.0.38";
     public static final String MIF_IP = "172.24.4.54"; //MIF lan IP address
     public static final int SERVERPORT = 8080;
     private String SERVERIP;
